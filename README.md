@@ -4,7 +4,7 @@ Análise dos Dados da Olist, plataforma de e-commerce do Brasil.
 ## Contexto do Projeto
 Análisar dados da Olist plataforma de e-commerce. Os dados são de quase 100mil vendas feitas na plataforma em todo o Brasil.
 
-##Dados
+## Dados
 Os dados utilizados nesta análise foram pegos no site Kaggle, e é composto de 6 Tabelas diferentes contendo informações de cada venda como data da compra, valor, meio de pagamento, dados do vendedor, dados do comprador e dados dos produtos vendidos.
 
 
@@ -117,3 +117,25 @@ GROUP BY payment_type
 
 <img src="https://user-images.githubusercontent.com/77849519/234661413-4391eda0-2371-4270-9f3d-3b229fdf83fc.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234668646-d8b598ac-9d6d-4658-83a0-e0c9372ddb31.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672492-a30e95f7-2e60-4164-8386-1ffbd33ffa88.png" width="30%"> 
 <img src="https://user-images.githubusercontent.com/77849519/234672696-91d9688c-4488-4d70-9703-46f27b519cdf.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672793-c29593dd-3863-4dae-a105-96188d1f5caa.png" width="30%">
+
+Você pode acessar o Dashboard clicando em: <a href="https://app.powerbi.com/view?r=eyJrIjoiN2QzMjk2N2UtMDAzYy00M2VlLTg3ZjUtNDRlODc5MDM0NzcxIiwidCI6ImYxMWY0YzkwLTYzZjQtNGE3Ni1hMTVkLTU5YzZlZDQ0ZmM0MSJ9&pageName=ReportSection">Análise E-Commerce Brasil<a>.
+  
+## Insights 
+**As categorias que mais venderam foram: Beleza e Saúde, Cama, mesa e banho e Relógios**
+  **O preço médio das vendas aumenta no último trimenstre do ano**
+## Perguntas feitas
+Para melhor analisar os dados, algumas perguntas foram elaboradas:
+
+**1 - As categorias que mais venderam foram: Beleza e Saúde, Cama, mesa e banho e Relógios.**
+
+**2 - O preço médio das vendas aumenta no último trimenstre do ano.**
+
+**3 - Os estados que mais venderam foram São Paulo, Paraná, Rio de Janeiro, Minas Gerais e Santa Catarina.**
+  
+**4 - A maior parte das vendas foram entregues dentro do prazo previsto, tendo atrasado somente 6,6% aproximadamente.**
+  
+**5 - As categorias que mais vendenram, tiveram um preço de frete próximo da média total, enquanto que muitas das categorias menos vendidas tiveram um frete mais elevado, levando a entender que o preço do frete, pode interferir na tomada de decisão da compra.**
+  
+**6 - Os melhores dias de vendas foram datas de promoções especiais, como a Black Friday, ou dias perto de datas comemorativas, como Dia das Mães.**
+  
+**7 - A maioria das compras foram feitas no Crédito, sendo metade delas pagas À vista, e a outra metade parcela, em sua grande maioria em até 10 vezes.**
