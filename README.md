@@ -121,11 +121,6 @@ GROUP BY payment_type
 Você pode acessar o Dashboard clicando em: <a href="https://app.powerbi.com/view?r=eyJrIjoiN2QzMjk2N2UtMDAzYy00M2VlLTg3ZjUtNDRlODc5MDM0NzcxIiwidCI6ImYxMWY0YzkwLTYzZjQtNGE3Ni1hMTVkLTU5YzZlZDQ0ZmM0MSJ9&pageName=ReportSection">Análise E-Commerce Brasil<a>.
   
 ## Insights 
-**As categorias que mais venderam foram: Beleza e Saúde, Cama, mesa e banho e Relógios**
-  **O preço médio das vendas aumenta no último trimenstre do ano**
-## Perguntas feitas
-Para melhor analisar os dados, algumas perguntas foram elaboradas:
-
 **1 - As categorias que mais venderam foram: Beleza e Saúde, Cama, mesa e banho e Relógios.**
 
 **2 - O preço médio das vendas aumenta no último trimenstre do ano.**
