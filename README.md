@@ -115,6 +115,5 @@ GROUP BY payment_type
 ## Dashboard Power BI
 # Com o Power BI, utilizaremos de gráficos para analisar melhor os dados, e responder a todas as perguntas que fizemos aos dados de forma visual.
 
-<img src="https://user-images.githubusercontent.com/77849519/234661413-4391eda0-2371-4270-9f3d-3b229fdf83fc.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234668646-d8b598ac-9d6d-4658-83a0-e0c9372ddb31.png" width="30%"> 
-
-
+<img src="https://user-images.githubusercontent.com/77849519/234661413-4391eda0-2371-4270-9f3d-3b229fdf83fc.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234668646-d8b598ac-9d6d-4658-83a0-e0c9372ddb31.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672492-a30e95f7-2e60-4164-8386-1ffbd33ffa88.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/77849519/234672696-91d9688c-4488-4d70-9703-46f27b519cdf.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672793-c29593dd-3863-4dae-a105-96188d1f5caa.png" width="30%">
