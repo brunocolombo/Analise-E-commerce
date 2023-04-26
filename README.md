@@ -112,5 +112,9 @@ FROM orders_payments
 GROUP BY payment_type
 ```
 
-##Dashboard Power BI
-#Utilizando o Power BI, utilizaremos de gráficos para analisar melhor os dados, e responder a todas as perguntas que fizemos aos dados de forma visual.
+## Dashboard Power BI
+# Com o Power BI, utilizaremos de gráficos para analisar melhor os dados, e responder a todas as perguntas que fizemos aos dados de forma visual.
+
+<img src="https://user-images.githubusercontent.com/77849519/234661413-4391eda0-2371-4270-9f3d-3b229fdf83fc.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234668646-d8b598ac-9d6d-4658-83a0-e0c9372ddb31.png" width="30%"> 
+
+
