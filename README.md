@@ -27,3 +27,90 @@ Para melhor analisar os dados, algumas perguntas foram elaboradas:
 **5 - Existe sasonalidade nas vendas? Datas especiais, onde as vendas foram maiores?**
 
 **6 - Quais os meios de pagamentos mais utilizados? A preferência por algum tipo de parcelamento das compras?**
+
+## Explorando e Transformando os dados no MySQL
+
+### Carregando os dados para o MySQL
+Upload de todas as tabelas(em formato csv.) para podermos analisar e correlacionar os dados.
+```sql
+load data local infile "C:\\Users\\bruno\\Documents\\Brazil E-commerce\\olist_orders_dataset.csv"
+into table orders_dataset
+FIELDS TERMINATED BY ',' ENCLOSED BY '"'
+ignore 1 rows;
+````
+### Analisando os dados
+Receita por Categoria
+```sql
+SELECT 
+SUM(o.price) AS receita_total,
+p.product_category_name AS categoria
+FROM order_items_dataset o
+JOIN products_dataset p
+ON o.product_id = p.product_id
+GROUP BY p.product_category_name
+```
+Preço médio dos produtos vendidos e do frete
+```sql
+SELECT
+ROUND(avg(freight_value),2) AS custo_médio_frete
+FROM order_items_dataset;
+```
+```sql
+SELECT
+ROUND(avg(price),2) AS preço_médio_produtos
+FROM order_items_dataset;
+```
+Unidades Vendidas e Receita Total por dia
+```sql
+SELECT
+od.order_purchase_date AS data_da_compra,
+COUNT(oi.order_id) AS vendas_totais
+SUM(price) AS receita_do_dia
+FROM orders_dataset od
+JOIN order_items_dataset oi
+ON od.order_id = oi.order_id
+GROUP BY od.order_purchase_date
+ORDER BY count(oi.order_id) desc;
+```
+Unidades Vendidas por Categoria
+```sql
+SELECT 
+COUNT(*) AS total_unidades_vendidas,
+p.product_category_name AS categoria
+FROM order_items_dataset o
+JOIN products_dataset p
+ON o.product_id = p.product_id
+GROUP BY p.product_category_name
+ORDER BY total_units_sold desc
+```
+Tempo(em dias) para a entrega do produto
+```sql
+SELECT
+order_approved_at AS dia_da_compra,
+order_delivered_customer_date AS dia_entrega,
+DATEDIFF( order_delivered_customer_date, order_approved_at) AS tempo_entrega
+FROM orders_dataset
+HAVING diff is not null
+ORDER BY tempo_entrega
+```
+Tempo de entrega previsto(em dias)
+```sql
+SELECT
+order_approved_at AS dia_da_compra,
+order_estimated_delivery_date AS dia_entrega_previsto,
+DATEDIFF( order_estimated_delivery_date, order_approved_at) AS entrega_estimada
+FROM orders_dataset
+HAVING entrega_estimada is not null
+ORDER BY order_id
+```
+Tipos de Pagemntos mais Utilizados
+```sql
+SELECT
+payment_type AS Tipo_pagamento,
+ROUND(COUNT(*) * 100 / SUM(COUNT(*)) OVER (),2) AS %_do_total_de_compras
+FROM orders_payments
+GROUP BY payment_type
+```
+
+##Dashboard Power BI
+#Utilizando o Power BI, utilizaremos de gráficos para analisar melhor os dados, e responder a todas as perguntas que fizemos aos dados de forma visual.
