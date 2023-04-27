@@ -118,7 +118,7 @@ GROUP BY payment_type
 <img src="https://user-images.githubusercontent.com/77849519/234661413-4391eda0-2371-4270-9f3d-3b229fdf83fc.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234668646-d8b598ac-9d6d-4658-83a0-e0c9372ddb31.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672492-a30e95f7-2e60-4164-8386-1ffbd33ffa88.png" width="30%"> 
 <img src="https://user-images.githubusercontent.com/77849519/234672696-91d9688c-4488-4d70-9703-46f27b519cdf.png" width="30%"> <img src="https://user-images.githubusercontent.com/77849519/234672793-c29593dd-3863-4dae-a105-96188d1f5caa.png" width="30%">
 
-Você pode acessar o Dashboard clicando em: <a href="https://app.powerbi.com/view?r=eyJrIjoiN2QzMjk2N2UtMDAzYy00M2VlLTg3ZjUtNDRlODc5MDM0NzcxIiwidCI6ImYxMWY0YzkwLTYzZjQtNGE3Ni1hMTVkLTU5YzZlZDQ0ZmM0MSJ9&pageName=ReportSection">Análise E-Commerce Brasil<a>.
+Você pode acessar o Dashboard clicando em: <a href="https://app.powerbi.com/view?r=eyJrIjoiZTgyZWI5OWItMDU2ZC00YzIyLTg3MzgtNGFiZTFjZWE4NWZlIiwidCI6ImYxMWY0YzkwLTYzZjQtNGE3Ni1hMTVkLTU5YzZlZDQ0ZmM0MSJ9&pageName=ReportSection">Análise E-Commerce Brasil<a>.
   
 ## Insights 
 **1 - As categorias que mais venderam foram: Beleza e Saúde, Cama, mesa e banho e Relógios.**
